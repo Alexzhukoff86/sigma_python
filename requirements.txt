@@ -1,0 +1,11 @@
+py~=1.8.1
+colorama~=0.4.3
+pip~=20.0.2
+keyring~=18.0.1
+attrs~=19.3.0
+pytest~=5.3.5
+wcwidth~=0.1.8
+pluggy~=0.13.1
+pexpect~=4.6.0
+pyparsing~=2.4.6
+setuptools~=45.2.0
