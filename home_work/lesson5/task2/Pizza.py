@@ -19,12 +19,24 @@ class Pizza:
 
     @classmethod
     def pepperoni(cls):
+        """
+        Create PEPPERONI with predefined ingredients
+        :return:
+        """
         return Pizza(PEPPERONI)
 
     @classmethod
     def hawaiian(cls):
+        """
+        Create HAWAIIAN with predefined ingredients
+        :return:
+        """
         return Pizza(HAWAIIAN)
 
     @classmethod
     def margherita(cls):
+        """
+        Create MARGHERITA with predefined ingredients
+        :return:
+        """
         return Pizza(MARGHERITA)

@@ -25,6 +25,11 @@ class Employee(Human):
 
     @classmethod
     def from_string(cls, employee_data):
+        """
+        Function create Employee from string
+        :param employee_data:
+        :return:
+        """
         employee_data_list = employee_data.split('-')
         employee = Employee(*employee_data_list)
         return employee
