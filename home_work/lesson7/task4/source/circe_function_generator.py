@@ -7,5 +7,3 @@ def circle_function_generator(sequence, max_length):
             index = 0
         else:
             index += 1
-
-
